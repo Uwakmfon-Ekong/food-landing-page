@@ -14,12 +14,12 @@ body{
 }
 
 .container{
-    margin: 20px 20px;
+    margin: 20px 20px 0 0 ;
     width: 100%;
     padding-left:50px;
 }
 nav{
-    width: 100%;
+    width: 98%;
     height:100%;
     line-height: 75px;
     display: flex;
@@ -58,19 +58,21 @@ nav .logo{
     cursor: pointer;
 }
 
-nav li a:first-child:active{
+.home{
     color:#2CBF6C;
 }
+
+    
 .content-items{
     display: flex;
     width: 100;
-    margin-top: 10rem;
+    margin-top: 8rem;
 
 }
 .burger{
     width: 721px;
     height: 631px;
-    margin-left:-8rem;
+    margin-left:-7rem;
     margin-top: -5rem;
     position: relative;
 }
@@ -83,8 +85,8 @@ nav li a:first-child:active{
     width: 50%;
 }
 .ellipse{
-    width: 583px;
-    height: 515px;
+    width: 500px;
+    height: 450px;
     position: absolute;
     left: 747px;
     top: 308px;
@@ -101,8 +103,8 @@ nav li a:first-child:active{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
-    font-size: 54px;
-    line-height: 100px;
+    font-size: 60px;
+    line-height: 111px;
 }
 .classic{
     font-family: 'Poppins';
@@ -156,15 +158,15 @@ button{
     width: 136px;
     height: 121px;
     margin-left: 5rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 .first-box{
     background: rgba(242, 242, 242, 0.5);
     box-shadow: 0px 4px 23px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
-    width: 290px;
+    width: 270px;
     height: 392px;
-    margin-bottom: 133px;
+    margin-bottom: 60px;
 }
 .boxes{
     display: flex;
@@ -186,30 +188,30 @@ button{
 }
 
 .star-wrapper{
-    margin-top: 5rem;
+    margin-top: 4rem;
 }
 .burger-type{
     text-align: center;
     font-family: 'Poppins';
     font-weight: 600;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 36px;
 }
 .delicious{
     text-align: center;
     font-family: 'Poppins';
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 30px;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
 }
 .dollar{
     font-family: 'Poppins';
     font-weight: 700;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 36px;
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
 }
 .dark-circle{
     width: 71px;
@@ -227,10 +229,11 @@ button{
     width: 95%;
 }
 .miniboxes{
-    width: 396px;
+    width: 350px;
     height: 366px;
     background: rgba(166, 230, 194, 0.25);
     border-radius: 15px;
+    margin-bottom: 6rem;
 }
 .tips{
     font-family: 'Averia Serif Libre','cursive';
@@ -264,5 +267,5 @@ button{
     margin-bottom: 57px;
 }
 .last-wrapper{
-    margin-top:5rem ;
+    margin-top:4rem;
 }
